@@ -1,6 +1,17 @@
-# winston-papertrail [![Build Status](https://secure.travis-ci.org/kenperkins/winston-papertrail.png?branch=master)](http://travis-ci.org/kenperkins/winston-papertrail) [![NPM version](https://badge.fury.io/js/winston-papertrail.png)](http://badge.fury.io/js/winston-papertrail)
+# winston-papertrail-Fix [![Build Status](https://secure.travis-ci.org/kenperkins/winston-papertrail.png?branch=master)](http://travis-ci.org/kenperkins/winston-papertrail) [![NPM version](https://badge.fury.io/js/winston-papertrail.png)](http://badge.fury.io/js/winston-papertrail)
 
 A Papertrail transport for [winston][0].
+
+### Fix
+Add support for colorization consistent with Winston.
+
+Value | Meaning
+----------------------- | ------------------------
+colorization = false | No Colorization
+colorization = true | Only Level is colored
+colorization = level | Only Level is colored
+colorization = message | Message is colored
+colorization = all | Level and Message are colored
 
 ## Installation
 

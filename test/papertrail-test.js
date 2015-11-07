@@ -11,7 +11,7 @@
 var path = require('path'),
   should = require('should'),
   fs = require('fs'),
-  winston = require('winston'),
+  winston = require('winston-fix'),
   net = require('net'),
   tls = require('tls'),
   Papertrail = require('../lib/winston-papertrail').Papertrail;

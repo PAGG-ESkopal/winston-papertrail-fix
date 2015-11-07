@@ -1,11 +1,11 @@
 {
-  "name": "winston-papertrail",
+  "name": "winston-papertrail-fix",
   "description": "A Papertrail transport for winston",
-  "version": "1.0.1",
+  "version": "1.0.1-beta.4",
   "author": "Ken Perkins <ken.perkins@rackspace.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/kenperkins/winston-papertrail.git"
+    "url": "http://github.com/pagg-eskopal/winston-papertrail-fix.git"
   },
   "keywords": [
     "logging",
@@ -17,10 +17,10 @@
   "devDependencies": {
     "mocha": "^2.0.1",
     "should": "^4.3.0",
-    "winston": ">=0.6.x"
+    "winston-fix": ">=2.1.x"
   },
   "peerDependencies": {
-    "winston": ">=0.6.x"
+    "winston-fix": ">=2.1.x"
   },
   "dependencies": {
     "glossy": "^0.1.7"
